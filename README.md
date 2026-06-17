@@ -1,11 +1,11 @@
 # Hanishya Pelleti - AI/ML Engineer & Developer Portfolio
 
-[![Live Site](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://portfolio-nine-lime-92.vercel.app/)
+[![Live Site](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](pelleti-hanishya-portfolio.vercel.app)
 
 Welcome to my portfolio! I am an ambitious AI & Machine Learning student (CGPA 9.43) at the BNM Institute of Technology, with hands-on experience in computer vision, deep learning, NLP, and full-stack development. This project showcases my skills, internships, projects, and achievements.
 
 ## 🚀 Live Link
-You can view the live, interactive deployment of my portfolio here: **[https://portfolio-nine-lime-92.vercel.app/](https://portfolio-nine-lime-92.vercel.app/)**
+You can view the live, interactive deployment of my portfolio here: **[pelleti-hanishya-portfolio.vercel.app](pelleti-hanishya-portfolio.vercel.app)**
 
 ---
 
