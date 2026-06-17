@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanishya Pelleti | AI/ML Engineer & Developer Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Hanishya Pelleti, an AI/ML student and developer specialized in Computer Vision, Deep Learning, NLP, and Full-Stack AI development.">
+    <meta name="keywords" content="Hanishya Pelleti, AI ML Engineer, Computer Vision, Deep Learning, NLP, Portfolio, Developer, Python, BNMIT">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hanishya Pelleti | AI/ML Engineer Portfolio">
+    <meta property="og:description" content="Portfolio of Hanishya Pelleti, an AI/ML student and developer specialized in Computer Vision, Deep Learning, NLP, and Full-Stack AI development.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Hanishya Pelleti | AI/ML Engineer Portfolio">
+    <meta property="twitter:description" content="Portfolio of Hanishya Pelleti, an AI/ML student and developer specialized in Computer Vision, Deep Learning, NLP, and Full-Stack AI development.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Neural Network Background Canvas -->
+    <canvas id="neural-canvas"></canvas>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Hanishya<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-secondary nav-cta">Let's Talk</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="welcome-badge"><i class="fa-solid fa-brain"></i> AI / ML Developer</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Hanishya Pelleti</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I specialize in <span id="typewriter"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Motivated AIML student (CGPA 9.43) with hands-on experience in computer vision, deep learning, NLP, and full-stack AI development. Seeking to develop intelligent solutions for worker safety, anomaly detection, industrial monitoring, and smart manufacturing.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/hanishya-pelleti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:pelletihemachandrika@gmail.com" aria-label="Email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919019912809" aria-label="Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="interactive-globe-container">
+                        <!-- Abstract glow effect container for CSS visual art -->
+                        <div class="gradient-sphere"></div>
+                        <div class="orbiting-nodes">
+                            <div class="node n1"><i class="fa-solid fa-network-wired"></i></div>
+                            <div class="node n2"><i class="fa-solid fa-robot"></i></div>
+                            <div class="node n3"><i class="fa-solid fa-eye"></i></div>
+                            <div class="node n4"><i class="fa-solid fa-database"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll to About Section">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get to Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-info card">
+                        <h3>A Passion for Intelligent Systems</h3>
+                        <p>I am an ambitious AI & Machine Learning undergraduate student currently pursuing my B.E at BNM Institute of Technology. I am driven by the potential of Artificial Intelligence to solve critical real-world challenges, particularly in computer vision, healthcare diagnosis, and industrial safety automation.</p>
+                        
+                        <div class="personal-details-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Current Education:</span>
+                                <span class="detail-value">B.E - AI & ML (CGPA 9.43)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-value">Bengaluru, Karnataka</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Languages:</span>
+                                <span class="detail-value">English, Telugu, Kannada</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Native Town:</span>
+                                <span class="detail-value">Nellore, Andhra Pradesh</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Interests:</span>
+                                <span class="detail-value">Travelling, Listening to Music</span>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-btn-container">
+                            <!-- Direct resume download and view link -->
+                            <a href="Hanishya_Pelleti_Resume.pdf" target="_blank" class="btn btn-primary"><i class="fa-solid fa-file-arrow-down"></i> View & Download Resume</a>
+                        </div>
+                    </div>
+                    
+                    <div class="education-timeline">
+                        <h3 class="timeline-title"><i class="fa-solid fa-graduation-cap"></i> Education Timeline</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2023 - 2027</div>
+                                <div class="timeline-content card">
+                                    <h4>B.E - AI & Machine Learning</h4>
+                                    <h5>BNM Institute of Technology</h5>
+                                    <p class="gpa">CGPA: <strong>9.43 / 10</strong></p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021 - 2023</div>
+                                <div class="timeline-content card">
+                                    <h4>Sri Krishna Chaitanya Jr. College</h4>
+                                    <h5>PCM Stream</h5>
+                                    <p class="gpa">Percentage: <strong>83.7%</strong></p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021</div>
+                                <div class="timeline-content card">
+                                    <h4>Narayana Concept School</h4>
+                                    <h5>Grade 10</h5>
+                                    <p class="gpa">Grade Score: <strong>97%</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">My Toolkit</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python (Proficient)</span>
+                            <span class="skill-tag">Java (Beginner)</span>
+                            <span class="skill-tag">HTML5 / CSS3</span>
+                            <span class="skill-tag">JavaScript (ES6+)</span>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning & AI -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>ML & AI</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning (CNN, U-Net)</span>
+                            <span class="skill-tag">Natural Language Processing</span>
+                            <span class="skill-tag">RAG System Architectures</span>
+                            <span class="skill-tag">Vector Databases</span>
+                            <span class="skill-tag">LLM Integration</span>
+                        </div>
+                    </div>
+
+                    <!-- Computer Vision -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-eye"></i>
+                            <h3>Computer Vision</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">IPCV</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">scikit-learn</span>
+                        </div>
+                    </div>
+
+                    <!-- Web & Backend Development -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Web & Backend</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Cloud -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases & Cloud</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Firebase Cloud Storage</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Research -->
+                    <div class="skill-category card">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools & Methods</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Data Annotation</span>
+                            <span class="skill-tag">Model Evaluation</span>
+                            <span class="skill-tag">Benchmarking & Prototyping</span>
+                            <span class="skill-tag">Literature Review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience/Internships Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Professional Experience</span>
+                    <h2 class="section-title">Internships</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="experience-tabs-container card">
+                    <div class="experience-tabs">
+                        <button class="tab-btn active" data-tab="capabl">
+                            <span class="company-name">Capabl</span>
+                            <span class="tab-role">AI/ML Intern</span>
+                        </button>
+                        <button class="tab-btn" data-tab="skillcraft">
+                            <span class="company-name">Skillcraft Technology</span>
+                            <span class="tab-role">Cyber Security Intern</span>
+                        </button>
+                    </div>
+                    
+                    <div class="experience-content-panels">
+                        <div class="tab-panel active" id="capabl">
+                            <div class="panel-header">
+                                <h3>AI/ML Intern <span class="text-accent">@ Capabl</span></h3>
+                                <span class="duration"><i class="fa-regular fa-calendar-days"></i> June 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Built an AI-powered Mental Wellness Assistant using NLP agents and the MERN stack with intent detection and guided interaction flows.</li>
+                                <li>Developed RESTful backend APIs and managed MongoDB databases; conducted model performance evaluation and improvement cycles.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-panel" id="skillcraft">
+                            <div class="panel-header">
+                                <h3>Cyber Security Intern <span class="text-accent">@ Skillcraft Technology</span></h3>
+                                <span class="duration"><i class="fa-regular fa-calendar-days"></i> Sept 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Applied cybersecurity fundamentals through hands-on development of specialized security projects.</li>
+                                <li>Engineered cryptographic and simulation scripts, including Caesar Cipher, image encryption/decryption, keylogging simulations, and password strength analyzers.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">My Creations</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+                    <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                    <button class="filter-btn" data-filter="web-backend">Web & Backend</button>
+                    <button class="filter-btn" data-filter="cyber">Security</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: PE Detection System -->
+                    <div class="project-card card" data-category="ai-ml cv">
+                        <div class="project-image-fallback cv-bg">
+                            <i class="fa-solid fa-lungs"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-type"><i class="fa-solid fa-microscope"></i> Computer Vision</span>
+                            </div>
+                            <h3 class="project-title">Pulmonary Embolism Detection</h3>
+                            <p class="project-desc">
+                                Engineered an end-to-end deep learning pipeline using U-Net and IPCV on CT scan data, achieving 85% accuracy. Designed to classify PE vs Non-PE, mirroring industrial anomaly detection.
+                            </p>
+                            <div class="project-tech">
+                                <span>OpenCV</span>
+                                <span>U-Net</span>
+                                <span>TensorFlow</span>
+                                <span>PyTorch</span>
+                                <span>scikit-learn</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: AI Mental Health Support -->
+                    <div class="project-card card" data-category="ai-ml web-backend">
+                        <div class="project-image-fallback health-bg">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-type"><i class="fa-solid fa-brain"></i> NLP & Wellness</span>
+                            </div>
+                            <h3 class="project-title">AI Mental Health Support System</h3>
+                            <p class="project-desc">
+                                A wellness platform offering chatbot-based emotional support, real-time sentiment analysis, and mood tracking, backed by secure, structured Flask/FastAPI REST endpoints.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>FastAPI</span>
+                                <span>NLP</span>
+                                <span>MERN Stack</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AI Legal Assistant -->
+                    <div class="project-card card" data-category="ai-ml">
+                        <div class="project-image-fallback legal-bg">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-type"><i class="fa-solid fa-magnifying-glass"></i> RAG / LLM</span>
+                            </div>
+                            <h3 class="project-title">AI Legal Assistant</h3>
+                            <p class="project-desc">
+                                Retrieval-Augmented Generation (RAG) assistant created for contract analysis, key clause extraction, legal risk detection, and natural language Q&A using vector databases.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>RAG</span>
+                                <span>Vector DB</span>
+                                <span>LLMs</span>
+                                <span>LangChain</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Cloud Geolocation -->
+                    <div class="project-card card" data-category="web-backend">
+                        <div class="project-image-fallback geo-bg">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-type"><i class="fa-solid fa-network-wired"></i> Full-Stack IoT</span>
+                            </div>
+                            <h3 class="project-title">Cloud IP Geolocation System</h3>
+                            <p class="project-desc">
+                                Real-time IP tracking dashboard integrating external geolocation APIs. Features automated email alerts, regulatory enforcement, and Firebase cloud storage.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Flask</span>
+                                <span>Firebase</span>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Caesar Cipher & Encryptor -->
+                    <div class="project-card card" data-category="cyber">
+                        <div class="project-image-fallback cyber-bg">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-type"><i class="fa-solid fa-lock"></i> Cyber Security</span>
+                            </div>
+                            <h3 class="project-title">Cryptography & Security Toolkit</h3>
+                            <p class="project-desc">
+                                Formulated algorithms for securing data. Includes Caesar Cipher encryption, pixel-manipulation image encryption, password strength evaluator, and keylogger simulator.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Cryptography</span>
+                                <span>Security Fundamentals</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Recognition & Impact</span>
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="achievements-grid">
+                    <div class="achievement-card card">
+                        <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <h3>Hackathons & Innovators</h3>
+                        <p>Active participant in multiple state and national level hackathons, demonstrating collaborative problem solving under tight timelines:</p>
+                        <ul class="achievement-list">
+                            <li><strong>VIT</strong> (AI to Glow Hackathon)</li>
+                            <li><strong>UVCE</strong> (Impetus 25.0 Hackathon)</li>
+                            <li><strong>UNESCO</strong> Youth Hackathon</li>
+                            <li><strong>Eureka!</strong> by IIT Bombay</li>
+                            <li><strong>SIH</strong> (Smart India Hackathon)</li>
+                            <li><strong>Healathon</strong> by PES University</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="achievement-card card">
+                        <div class="achievement-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3>Quizzes & Industrial Tech</h3>
+                        <p>Demonstrating a strong grasp of technical concepts and scientific principles:</p>
+                        <ul class="achievement-list">
+                            <li>Competitor in **Science in Action 4.0 Quiz**.</li>
+                            <li>Engaged in **Sustainalytics** in Phase Shift 2025, specializing in sustainability and industrial technology solutions.</li>
+                        </ul>
+                    </div>
+
+                    <div class="achievement-card card">
+                        <div class="achievement-icon"><i class="fa-solid fa-users"></i></div>
+                        <h3>Community Outreach</h3>
+                        <p>Dedicated to social responsibility and team contribution outside of technical development:</p>
+                        <ul class="achievement-list">
+                            <li>Active **NSS (National Service Scheme)** member.</li>
+                            <li>Coordinated and participated in multiple community outreach events, environmental drives, and social welfare campaigns.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info-panel card">
+                        <h3>Let's collaborate!</h3>
+                        <p>Feel free to reach out if you're looking for an AI/ML intern, want to collaborate on a project, or have any technical inquiries.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:pelletihemachandrika@gmail.com">pelletihemachandrika@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div class="detail-text">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+919019912809">+91 90199 12809</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="detail-text">
+                                    <h4>Location</h4>
+                                    <span>Bengaluru, Karnataka, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-circles">
+                            <a href="https://linkedin.com/in/hanishya-pelleti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Hanishyapelleti" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-panel card">
+                        <form id="contact-form" action="https://formspree.io/f/meewwloa" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Hi Hanishya, I'd like to talk about..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            
+                            <div id="form-feedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo">&lt;Hanishya /&gt;</a>
+                <p>Building intelligent systems to solve real-world problems.</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hanishya Pelleti. All rights reserved.</p>
+                <p>Designed with <i class="fa-solid fa-heart text-accent"></i> and built from scratch.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
